@@ -28,3 +28,11 @@ a {
     background: black;
   }
 }
+
+.card {
+  @apply mb-5 block rounded-lg border-gray-200 shadow-md;
+}
+
+.primary-button {
+  @apply rounded bg-[#002B5B] text-white py-2 px-4 outline-none shadow hover:bg-[#2B4865] active:bg-[#002B5B];
+}
